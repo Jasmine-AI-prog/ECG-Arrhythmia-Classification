@@ -1,0 +1,48 @@
+{
+  "test_accuracy": 0.9850173592567444,
+  "test_loss": 0.005206448491662741,
+  "confusion_matrix": [
+    [
+      18064,
+      30,
+      14,
+      3,
+      7
+    ],
+    [
+      148,
+      401,
+      6,
+      0,
+      1
+    ],
+    [
+      41,
+      4,
+      1380,
+      22,
+      1
+    ],
+    [
+      25,
+      0,
+      12,
+      125,
+      0
+    ],
+    [
+      14,
+      0,
+      0,
+      0,
+      1594
+    ]
+  ],
+  "class_names": [
+    "Normal (N)",
+    "Supraventriculaire (S)",
+    "Ventriculaire (V)",
+    "Fusion (F)",
+    "Inconnu (Q)"
+  ]
+}
