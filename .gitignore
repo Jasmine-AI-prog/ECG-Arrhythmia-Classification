@@ -12,7 +12,6 @@ venv.bak/
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
-*.ipynb
 
 # Modeles (optionnel, selon taille)
 *.h5
