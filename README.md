@@ -14,15 +14,16 @@ Ce projet utilise un reseau de neurones profond combinant des couches CNN, LSTM 
 - Matrice de confusion et F1-score par classe disponibles
 
 ## Structure du projet
-- notebooks/: Notebooks Jupyter
-- models/: Modeles entraines
-- src/: Code source
-- results/: Resultats et graphiques
+- README.md: Description du projet
+- requirements.txt: Dependances Python
+- deployment_package/: Package de deploiement
+  - predict.py: Script de prediction
+- results.json: Metriques d'evaluation
+- training_results.png: Graphiques d'entrainement
 
 ## Installation
+```bash
 pip install -r requirements.txt
-
-## Utilisation
-from predict import Predictor
+from deployment_package.predict import Predictor
 predictor = Predictor()
 classe, nom, probs = predictor.predict(signal)
